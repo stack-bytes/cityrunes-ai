@@ -1,0 +1,14 @@
+[project]
+name = "cityrunes-ai"
+version = "0.1.0"
+description = "Local image comparison API using SIFT and RANSAC"
+readme = "README.md"
+authors = [
+    { name = "Rares Catana", email = "rarescatana4@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi[standard]>=0.164.0",
+    "numpy>=2.5.5",
+    "opencv-python-headless>=5.1.0.95",
+]
